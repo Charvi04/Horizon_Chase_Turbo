@@ -20,8 +20,7 @@ function preload(){
   car3_img = loadImage("images/car3.png");
   car4_img = loadImage("images/car4.png");
   back = loadImage("images/cars.jpg");
-  reset1 = loadImage("images/reset.jpg");
-  trophy = loadImage("images/trophy.png")
+ 
 }
 function setup(){
   canvas = createCanvas(displayWidth - 20, displayHeight-30);
@@ -48,6 +47,6 @@ if(gameState === 2){
   game.end();
  
 }
-reset.display();
+
 
 }
